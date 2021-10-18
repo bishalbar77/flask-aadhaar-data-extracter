@@ -1,5 +1,5 @@
 from flask import Flask, jsonify
-# from aadhaar.qr import AadhaarSecureQR
+from aadhaar.qr import AadhaarSecureQR
 
 app = Flask(__name__)
 
