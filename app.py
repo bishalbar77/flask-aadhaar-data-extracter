@@ -11,7 +11,7 @@ def hello_world():
 def get_data(qr):
     secure_qr = AadhaarSecureQR(qr)
     data = secure_qr.extract_data()
-    return str(qr)
+    return data
 
 if __name__ == "__main__":
     app.run(debug=True)
