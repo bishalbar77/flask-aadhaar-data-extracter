@@ -9,8 +9,8 @@ def hello_world():
 
 @app.route('/aadhaar/<int:qr>')
 def get_data(qr):
-    # secure_qr = AadhaarSecureQR(qr)
-    # data = secure_qr.extract_data()
+    secure_qr = AadhaarSecureQR(qr)
+    data = secure_qr.extract_data()
     return str(qr)
 
 if __name__ == "__main__":
