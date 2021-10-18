@@ -1,0 +1,5 @@
+{
+    "terminal.integrated.commandsToSkipShell": [
+        "\"python.autoComplete.extraPaths\": [\"./path-to-your-code\"],"
+    ]
+}
